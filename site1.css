@@ -1,0 +1,429 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px; 
+}
+header
+{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 110px;
+}
+#gauche {
+    float:left;
+    width:30%;
+    height: 100px;
+    margin-left: 10px;
+ 
+}
+#droite {
+    margin-left:30%;
+    padding-top: 35px;   
+}
+/*---------------->BARRE DE NAVIGATION<----------------------*/
+#primary_nav_wrap
+{
+
+	margin-top:15px
+}
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#213852;
+	text-decoration:none;
+	font-weight:700;
+	font-size:17px;
+	line-height:32px;
+	padding:0 15px;
+	font-family: 'Roboto', sans-serif;
+}
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+#primary_nav_wrap ul li:hover
+{
+	background:#E16A07
+}
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block;
+}
+ul, li{
+    display: inline-block;
+  
+}
+/*------------------------->VIDEO<-------------------------*/
+section, .videoo {
+	text-align: center;
+	color: white;
+	font-family:  Helvetica, sans-serif;
+	letter-spacing: 2px;	
+}
+#vid {
+	height: 850px;
+	width: 100%;
+	object-fit: cover;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+#titre1{
+	font-family: 'Exo', sans-serif;
+	text-shadow: 2px 3px 4px #FFFFFF;
+	font-size: 80px;
+}
+#date{
+	font-family: 'Roboto', sans-serif;
+}
+#DNF{
+	font-size: large;
+	position: relative;
+	display: inline-block;
+	margin-top: 2em;
+	padding: 1em 2em;
+	background-color: orange;
+	color: #fff;
+	text-decoration: none;
+	border-radius:  15px;
+	overflow: hidden;
+}
+#logo{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*------------------------->RAQUETTE TENNIS<-------------------------*/
+article
+{
+	background-image: url(cadre2.png);
+	padding-bottom: 130px;
+}
+#titre2 h1{
+	padding-top: 110px;
+	font-family: 'Exo', sans-serif;
+	color: #E16A07 ;
+	text-align: center;
+	font-size: 30px;
+	font: bold;
+}
+#text1{
+	
+	float:left;
+    width:30%;
+    height: 100px;
+    margin-left: 200px;
+	padding-top: 30px;	
+}
+#text1 b {
+	color: #E16A07;
+}
+#ball img
+{
+	padding-left: 200px;	
+}
+/*--------------------->3 CONTAINER<----------------------*/
+
+button{
+	background-color:#213852;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #213852;
+	cursor: pointer;
+}
+
+.service{
+	background: #fff;
+	width: 100%;
+	padding: 100px 0px;
+	padding-bottom: 150px;
+}
+.title h2{
+	font-family: 'Exo', sans-serif;
+	color: #213852 ;
+	text-align: center;
+	font-size: 30px;
+	font: bold;
+	padding-bottom: 40px;
+	
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 450px;
+	width: 400px;
+	padding: 20px 35px;
+	background: #E16A07;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	box-shadow:rgba(0, 0, 0, 0.2);
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#213852;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #213852;
+	cursor: pointer;
+}
+
+
+/*------------------>PRESIDENT<-------------------*/
+.about{
+	width: 100%;
+	padding: 212px 0px;
+	background-image: url(image/cadre.png);
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.about h1{
+	font-family: 'Exo', sans-serif;
+	color: #213852 ;
+	text-align: center;
+	font: bold;	
+}
+.about-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+
+}
+.about b {
+	color: #213852;
+}
+/*------------------>REALITE VIRTUELLE<-------------------*/
+
+.virtuelle{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: black;
+}
+.virtuelle h1{
+	font-family: 'Exo', sans-serif;
+	color: #fff ;
+	text-align: center;
+	font: bold;
+	font-size: 50px;	
+}
+/*-------------------------ENSEIGNANT-------------------*/
+#prof{
+	background-color: #213852;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#prof h1{
+	font-family: 'Exo', sans-serif;
+	color: #fff ;
+	text-align: center;
+	font: bold;
+	font-size: 50px;
+}
+
+/*------------------>PARTENAIRE<-------------------*/
+
+
+.navbar
+{
+    font-family: 'Playfair display', serif;
+    text-align: center;
+    padding: 20px;
+}
+h4{
+	font-family: 'Exo', sans-serif;
+	color: #E16A07;
+	text-align: center;
+	font: bold;
+}
+.wrapper
+{
+   padding-top: 40px;
+   padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider
+{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    background: white;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    overflow: hidden;
+
+}
+.slide
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    animation: slideshow 8s linear infinite;
+
+}
+.slide img 
+{
+    height: 70px;  
+    padding: 0 30px 0 30px;
+}
+@keYframes slideshow 
+{
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-100%);}
+}
+.slider::before, .slider::after
+{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 2;
+}
+.slider::before
+{
+    left: 0;
+    top: 0;
+}
+.slider::after
+{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+
+
+
+/*------------------>FOOTER<-------------------*/
+
+.mainX{
+	display: flex;
+	flex-direction: column;	
+}
+
+.mainX .content .contact{
+		display: flex;
+		flex-wrap: wrap;
+}
+
+.mainX .content .contact .left{
+		flex: 20 0 20%;
+		padding: 20px;
+		background-color:black;
+		color:#fff;
+}
+
+footer {
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	padding: 30px;
+	max-height: 800px;
+}
+
+footer .services {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer #contact {
+	color: rgb(181, 181, 181);
+	text-align: center;
+}
+
+footer p { 
+	font-size: medium;
+	text-align: left;
+}
+
+footer h3 {
+	font-size: medium;
+	background-color: black;
+	text-align: left;
+}
+
